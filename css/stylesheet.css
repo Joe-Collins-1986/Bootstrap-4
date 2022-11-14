@@ -1,0 +1,101 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NavBar */
+.nav-container {
+    padding: 0;
+}
+
+.nav-background {
+    background-color: #b04400;
+
+}
+
+
+.alert-container {
+
+}
+
+/* CALLOUT */
+.callout-container {
+    height: 100vh;
+    background: url(../images/background.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: rgb(239, 239, 239);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron p {
+    color: rgb(196, 196, 196);
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: rgb(196, 196, 196);
+}
+
+
+/* CALLOUT END */
+
+.quotes-container {
+
+}
+
+.features-container {
+
+}
+
+.block-divider {
+    width: 450px;
+    height: 5px;
+    background-color: #b04400;
+    border: none;
+}
+
+/*Butons*/
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--dark-orange {
+    color: white;
+    background-color: #b04400;
+    border-color: #b04400;
+}
+
+.btn--dark-orange:hover,
+.btn--dark-orange:active,
+.btn--dark-orange:focus,
+.btn--dark-orange:active:focus {
+    background-color: #7e360a;
+    border-color: #7e360a;
+}
